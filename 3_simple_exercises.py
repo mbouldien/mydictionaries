@@ -13,7 +13,8 @@ sampleDict = {
    }
 }
 
-
+score = sampleDict['class']['student']['marks']['history']
+print(score)
 
 
 # 2) Add 2 inches to the son's height.
@@ -21,7 +22,9 @@ sampleDict = {
 dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
 
 
+dict["son's height"] += 2
 
+print(dict["son's height"])
 
 
 # 3) Given a Python dictionary, Change Brad’s salary to 8500
@@ -32,8 +35,8 @@ sampleDict = {
      'emp3': {'name': 'Brad', 'salary': 6500}
 }
 
-
-
+sampleDict['emp3']['salary'] = 8500
+print(sampleDict)
 
 
 
@@ -42,4 +45,5 @@ sampleDict = {
 
 dict={"name": "Plato", "country": "Ancient Greece", "born": -427, "teacher": "Socrates", "student": "Aristotle"}
 
-
+dict['work'] = ["Apology", "Phaedo", "Republic", "Symposium"]
+print(dict)
